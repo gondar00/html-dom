@@ -8,18 +8,18 @@ import NotFoundPage from './pages/NotFoundPage';
 import PostPage from './pages/PostPage';
 
 const App = () => {
-    return (
-        <Router>
-            <RouteSwitch>
-                <Route exact={true} path='/'><HomePage /></Route>
-                <Route exact={true} path='/404.html'><NotFoundPage /></Route>
-                <Route
-                    path='/:slug'
-                    render={(props) => <PostPage slug={props.match.params.slug as string} />}
-                />
-            </RouteSwitch>
-        </Router>
-    );
+  return (
+    <Router>
+      <RouteSwitch>
+        <Route exact={true} path='/'><HomePage /></Route>
+        <Route exact={true} path='/404.html'><NotFoundPage /></Route>
+        <Route
+          path='/:slug'
+          render={(props) => <PostPage slug={props.match.params.slug as string} />}
+        />
+      </RouteSwitch>
+    </Router>
+  );
 };
 
 export default App;
