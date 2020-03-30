@@ -28,7 +28,7 @@
         "dev": "npm run copy && webpack --mode development",
         "dev-server": "npm run copy && webpack-dev-server",
         "export": "react-snap",
-        "build": "npm run copy && webpack --mode production && npm run export",
+        "build": "npm run copy && webpack --mode production && npm run export"
     },
     "dependencies": {
         "@loadable/component": "^5.12.0",
