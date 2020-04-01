@@ -22,7 +22,7 @@
     },
     "license": "MIT",
     "scripts": {
-        "copy": "npm run copy:public && npm run copy:demo",
+        "copy": "npm run copy:public",
         "copy:public": "rimraf dist && mkdir dist && cp -rf public/* dist",
         "dev": "npm run copy && webpack --mode development",
         "dev-server": "npm run copy && webpack-dev-server",
