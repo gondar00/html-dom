@@ -3,7 +3,7 @@
         "module-resolver",
         {
           "alias": {
-            "#components": "./components"
+            "#components": "./client/components"
           }
         }
       ]

@@ -2,23 +2,24 @@
     "name": "html-dom",
     "description": "Common tasks to manage HTML DOM with native API",
     "author": {
-        "name": "Nguyen Huu Phuoc",
-        "email": "me@phuoc.ng",
-        "url": "https://twitter.com/nghuuphuoc"
+        "name": "Gandharv garg",
+        "email": "gandharv@gmail.com",
+        "url": "https://www.gabru.tech"
     },
-    "homepage": "https://htmldom.dev",
+    "homepage": "https://www.gabru.tech",
     "keywords": [
         "dom",
+        "blog",
         "document object model",
         "dom api",
         "html"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/phuoc-ng/html-dom"
+        "url": "https://github.com/gondar00/html-dom"
     },
     "bugs": {
-        "url": "https://github.com/phuoc-ng/html-dom/issues"
+        "url": "https://github.com/gondar00/html-dom/issues"
     },
     "license": "MIT",
     "scripts": {
