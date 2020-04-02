@@ -4,7 +4,7 @@ interface Post {
 }
 
 const PostList: Post[] = [
-    { slug: 'add-or-remove-class-from-an-element', level: 'Basic' }
+    { slug: 'bash-mac-converting-mov-to-gif', level: 'Basic' }
 ];
 
 export default PostList;

@@ -1,5 +1,13 @@
 {
-    "plugins": ["@loadable/babel-plugin"],
+    "plugins": ["@loadable/babel-plugin", [
+        "module-resolver",
+        {
+          "alias": {
+            "#components": "./components"
+          }
+        }
+      ]
+    ],
     "presets": [
         "@babel/preset-env",
         "@babel/preset-react"

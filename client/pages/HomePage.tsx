@@ -9,10 +9,10 @@ import Layout from './Layout';
 const HomePage = () => {
   return (
     <Layout>
-      <Helmet>
+      {/* <Helmet>
         <title>gabru.code</title>
         <meta name='description' content='A collection of all the handy tips and gists for a developer' />
-      </Helmet>
+      </Helmet> */}
       <h1 className='font-bold mt-24 text-center text-2xl sm:text-4xl px-1'>This is my <span className='bg-blue-200 p-1'>technical</span> blog</h1>
       <h4 className='font-light mb-16 text-xl text-center italic'>I will send out a short email each weekend with code snippets, tools, techniques, and interesting stuff from around the web you can hit the Subscribe button for the latest news on my posts. No spam. Ever!</h4>
       <SubscribeForm />
